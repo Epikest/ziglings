@@ -103,7 +103,7 @@ const exercises = [_]Exercise{
     .{
         .main_file = "012_while2.zig",
         .output = "2 4 8 16 32 64 128 256 512 n=1024",
-        .hint = "It might help to look back at the preious exercise.",
+        .hint = "It might help to look back at the previous exercise.",
     },
     .{
         .main_file = "013_while3.zig",

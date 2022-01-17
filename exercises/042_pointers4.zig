@@ -27,6 +27,6 @@ pub fn main() void {
 
 // This function should take a reference to a u8 value and set it
 // to 5.
-fn makeFive(x: *u8) void {
-    ??? = 5; // fix me!
+fn makeFive(notFive: *u8) void {
+    notFive.* = 5; // fix me!
 }

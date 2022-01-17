@@ -21,13 +21,14 @@
 const std = @import("std");
 
 pub fn main() void {
-    const foo = 1;
+    const foo = true;
 
     // Please fix this condition:
     if (foo) {
         // We want our program to print this message!
         std.debug.print("Foo is 1!\n", .{});
-    } else {
+    }
+    else {
         std.debug.print("Foo is not 1!\n", .{});
     }
 }
